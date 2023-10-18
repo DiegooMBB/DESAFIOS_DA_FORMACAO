@@ -7,7 +7,7 @@ while continuar:
     except ValueError:
         print("Caractere errado. Digite um número.")
 
-    teste = input('Deseja continuar? [S/N]').strip().lower()
+    teste = input('Deseja continuar? [S/N]').lower()
     continuar = True if teste == 's' else False
 
 lista.sort()
